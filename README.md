@@ -12,7 +12,7 @@ a) From the graphs showing paths of two random walks, I can observe that both se
 
 For example, one of the walks stays within a limited space and keeps turning around their initial position, and also in the middle of the walk whilst the other walk seems to walk away from their initial position quite rapidly but then turns and forms clusters of movement on the graph durin gthe middle of their walk (~300s). 
 
-The difference in spans of the x and y coordinate ranges suggest that there is a difference in step sizes or limits to movements (it is unclear if the walks are stimulated to all be independent or by the same individual). 
+The difference in spans of the x and y coordinate ranges suggest that there may be a difference in limits to movements (it is unclear if the walks are stimulated to all be independent or by the same individual). 
 
 
 b) When computing a sequence of "random" numbers in which the same sequence of random numbers is produced every time the code is run, a random number generator based on a mathematical algorithm is used. Whilst the numbers generated may appear random, they are deterministic due to the algorithmic nature because a 'random seed' acts as a starting point and initial value for the algorithm. Setting a specific seed is essential for reproducibility in stimulations, debugging and reviewing experiments. 
