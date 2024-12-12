@@ -18,7 +18,12 @@ The difference in spans of the x and y coordinate ranges suggest that there may 
 b) When computing a sequence of "random" numbers in which the same sequence of random numbers is produced every time the code is run, a random number generator based on a mathematical algorithm is used. Whilst the numbers generated may appear random, they are deterministic due to the algorithmic nature because a 'random seed' acts as a starting point and initial value for the algorithm. Setting a specific seed is essential for reproducibility in stimulations, debugging and reviewing experiments. 
 
 
-c) 
+c) Edited script making reproducible stimulation of Brownian Motion, file commited and pushed to fork of reproducible_research.homework rep.
+
+
+
+d) <img width="740" alt="Screenshot 2024-12-12 at 20 33 13" src="https://github.com/user-attachments/assets/d1c4c323-ee15-47d4-b1dd-a7eb991167b3" />
+
 
 
 
