@@ -55,11 +55,33 @@ c)
 * Compared to the values found in Table 2 of the paper, β = 1.52 (1.16–1.87) and α = 1,182 (246–5,675), the exponent that I computed was the same and the scaling factor only 2 less.
 
 
-d) 
+d) ## Code to reproduce figure ##
 
+library(ggplot2) #Load ggplot2
 
+# Create scatterplot with regression line and confidence interval
+ggplot(virus_data, aes(x = log_genome_length, y = log_virion_volume)) +
+  geom_point(size = 2, colour = "black") +                #Change size and colour of data points 
+  geom_smooth(method = "lm", colour = "blue", fill = "grey", alpha = 0.2) +  # Add the lm regression line with CI
+  labs(
+    x = "log [Genome length (kb)]",
+    y = "log [Virion volume (nm3)]"
+  ) +
+  theme_minimal() + 
+  theme(
+    axis.title.x = element_text(face = "bold"),           # Make x-xis and y-axis bold
+    axis.title.y = element_text(face = "bold")           
+  )                                     
 
+e) The estimated volume of a 300kb dsDNA virus can be obtained using the allometric linear relationship:
 
+$log(V) = log(α) + β x log(L)$
+
+Substitute in known parameters from linear model: 
+
+log(V) = 7.0748 + (1.5152 X log(300))
+
+V = e^10.8281341252 ≈ **6.70 x 10^6 nm^3**
 
 
 ## Instructions
