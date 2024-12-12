@@ -31,7 +31,36 @@ d)
 
 ### Q5) 
 
-a) 
+a) The table containing the data for the dsDNA viruses has 33 rows and 13 columns. 
+
+b) To fit a linear model to the virus data, a logarithmic transformation can be applied. This transformation was applied to the Posit Cloud code. 
+
+c)
+* The exponent (β) and scaling factor (α) of the allometric law for dsDNA viruses can be obtained by fitting a linear model to the virus data and inputting the relevant linear coefficients into the allometric equation: 
+
+   $V = \alpha L^{\beta}$
+
+   The exponent (β) represents the rate of scaling between genome length and virion volume    and is obtained from the coefficient for log genome length.
+
+   **exponent (β) = 1.52 (2.d.p)**
+   p-value = 6.44 x 10^-10, highly statistically significant
+
+
+   The scaling factor (α) adjusts the proportionality based on the units and biological       constraints and is obtained from exponentiating the intercept from the linear coefficient    summary. 
+
+   **scaling factor (α) = 1180.12**
+   p-value = 2.28 x 10^-10, highly statistically significant. 
+
+
+* Compared to the values found in Table 2 of the paper, β = 1.52 (1.16–1.87) and α = 1,182 (246–5,675), the exponent that I computed was the same and the scaling factor only 2 less.
+
+
+d) 
+
+
+
+
+
 
 ## Instructions
 
