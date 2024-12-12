@@ -70,7 +70,7 @@ ggplot(virus_data, aes(x = log_genome_length, y = log_virion_volume)) +
 
 e) The estimated volume of a 300kb dsDNA virus can be obtained using the allometric linear relationship:
 
-$log(V) = log(α) + β x log(L)$
+$log(V) = log(α) + βlog(L)$
 
 Substitute in known parameters from linear model: 
 
