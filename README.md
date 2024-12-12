@@ -8,8 +8,13 @@ Answers in 'logistic_growth' repo: https://github.com/starstarstar17/logistic_gr
 
 ### Q4) 
 
+a) From the graphs showing paths of two random walks, I can observe that both seem to exhibit a spontaneous, jagged pattern where each step is unpredictable. These features are generally characteristic of brownian motion. Neither one of the walks seem to follow a clear direction from their distinct starting positions (shown by (0,0) coordinates) but both often seem to turn around a minimal space at certain points.
 
+For example, one of the walks stays within a limited space and keeps turning around their initial position, and also in the middle of the walk whilst the other walk seems to walk away from their initial position quite rapidly but then turns and forms clusters of movement on the graph durin gthe middle of their walk (~300s). 
 
+The difference in spans of the x and y coordinate ranges suggest that there is a difference in step sizes or limits to movements (it is unclear if the walks are stimulated to all be independent or by the same individual). 
+
+b) 
 
 ## Instructions
 
