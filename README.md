@@ -1,6 +1,15 @@
 # Reproducible research: version control and R
 
-\# INSERT ANSWERS HERE #
+## Version Control Assignment Answers: 
+
+### Q1/2/3) 
+
+Answers in 'logistic_growth' repo: https://github.com/starstarstar17/logistic_growth/tree/main
+
+### Q4) 
+
+
+
 
 ## Instructions
 
