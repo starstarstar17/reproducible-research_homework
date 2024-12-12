@@ -22,11 +22,16 @@ c) Edited script making reproducible stimulation of Brownian Motion, file commit
 
 
 
-d) <img width="740" alt="Screenshot 2024-12-12 at 20 33 13" src="https://github.com/user-attachments/assets/d1c4c323-ee15-47d4-b1dd-a7eb991167b3" />
+d)
+
+<img width="740" alt="Screenshot 2024-12-12 at 20 33 13" src="https://github.com/user-attachments/assets/d1c4c323-ee15-47d4-b1dd-a7eb991167b3" />
 
 
 
 
+### Q5) 
+
+a) 
 
 ## Instructions
 
