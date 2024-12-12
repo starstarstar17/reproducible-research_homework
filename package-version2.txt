@@ -1,0 +1,7 @@
+sink(file = "package-versions.txt")
+sessionInfo()
+sink()
+
+#Packages used:
+#library(ggplot2)
+#library(gridExtra)
