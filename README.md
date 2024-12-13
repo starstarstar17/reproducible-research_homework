@@ -4,7 +4,7 @@
 
 ### Q1/2/3) 
 
-Answers in 'logistic_growth' repo: https://github.com/starstarstar17/logistic_growth/tree/main
+Answers in 'logistic_growth' repo: https://github.com/starstarstar17/logistic_growth
 
 ### Q4) 
 
